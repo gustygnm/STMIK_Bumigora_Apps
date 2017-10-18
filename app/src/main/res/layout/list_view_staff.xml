@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundTab"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_namaStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="  Judul"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:textStyle="bold|normal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_namaStaff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/text01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="NIK             :"
+                    android:textColor="@android:color/black"
+                    android:textSize="13dp"
+                    android:layout_alignRight="@+id/text02"
+                    android:layout_alignEnd="@+id/text02" />
+
+                <TextView
+                    android:id="@+id/text_nikStaff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:layout_marginStart="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toRightOf="@+id/text01"
+                    android:layout_toEndOf="@+id/text01"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/text02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Bagian       :"
+                    android:layout_below="@id/text01"
+                    android:textColor="@android:color/black"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/text_BagianStaff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text=""
+                    android:layout_marginStart="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/text02"
+                    android:layout_below="@id/text_nikStaff"
+                    android:layout_toRightOf="@+id/text02"
+                    android:layout_marginLeft="10dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

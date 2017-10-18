@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavigationHome"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layout_top"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.stmikbumigora.apps._sliders.SliderView
+                        android:id="@+id/sliderView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_indicator" />
+
+                <LinearLayout
+                    android:id="@+id/pagesContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textMarqueeWelcomeHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:lines="1"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Selamat datang di aplikasi STMIK Bumigora Apps. || Semoga aplikasi ini dapat berguna bagi anda. || Jangan lupa untuk memberi masukan dan saran untuk kemajuan aplikasi ini (pilih menu 'Bantuan dan Masukan')."
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"></android.support.v7.widget.RecyclerView>
+
+
+            <TextView
+                android:id="@+id/multiAutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="?attr/colorPrimary"
+                android:enabled="false"
+                android:gravity="center"
+                android:text=" \nKumpulan situs penting :\n"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/isi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/multiAutoCompleteTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/textjudul1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="Website STMIK Bumigora Mataram"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textjudul1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:enabled="false"
+                    android:text="ini merupakan website utama milik STMIK Bumigora Mataram. Didalam website ini berisi banyak hal tentang STMIK Bumigora Mataram."
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="Link :\nwebsite.stmikbumigora.ac.id\n"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutAboutBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt2"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/backgroundTab">
+
+                    <Button
+                        android:id="@+id/btn_kunjungi_website"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/btn_selector_blue"
+                        android:text="   Kunjungi   "
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/isi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isi1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/textjudul2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="Siska STMIK Bumigora Mataram"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textjudul2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:enabled="false"
+                    android:text="Sistem Informasi Akademik (SISKA) merupakan website yang berisi informasi akademik per Mahasiswa/i STMIK Bumigora Mataram."
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/txt22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt21"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="Link :\nsiska.stmikbumigora.ac.id\n"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutAboutBottom1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt22"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/backgroundTab">
+
+                    <Button
+                        android:id="@+id/btn_kunjungi_siska"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/btn_selector_blue"
+                        android:text="   Kunjungi   "
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:gravity="center" />
+</RelativeLayout>

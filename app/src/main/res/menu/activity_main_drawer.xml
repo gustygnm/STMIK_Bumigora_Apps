@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="none">-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_home"-->
+            <!--android:icon="@drawable/logo_home"-->
+            <!--android:title="Home" />-->
+    <!--</group>-->
+    <item android:title="Profil">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/sub_sejarah"
+                    android:icon="@drawable/logo_sejarah"
+                    android:title="Sejarah" />
+                <item
+                    android:id="@+id/sub_visiMisi"
+                    android:icon="@drawable/logo_visimisi"
+                    android:title="Visi dan Misi" />
+                <item
+                    android:id="@+id/sub_strukturOrganisasi"
+                    android:icon="@drawable/logo_strukturorganisasi"
+                    android:title="Struktur Organisasi" />
+                <item
+                    android:id="@+id/sub_dataDosenStaff"
+                    android:icon="@drawable/logo_dosenstaff2"
+                    android:title="Data Dosen dan Staff" />
+                <item
+                    android:id="@+id/sub_fasilitasKampus"
+                    android:icon="@drawable/logo_fasilitas"
+                    android:title="Fasilitas Kampus" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Akademik">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/sub_programStudi"
+                    android:icon="@drawable/logo_programstudi"
+                    android:title="Program Studi" />
+                <!--<item-->
+                    <!--android:id="@+id/sub_peraturanAkademik"-->
+                    <!--android:icon="@drawable/logo_peraturanakademik"-->
+                    <!--android:title="Peraturan Akademik" />-->
+                <item
+                    android:id="@+id/sub_kalenderAkademik"
+                    android:icon="@drawable/logo_kalender"
+                    android:title="Kalender Akademik" />
+                <!--<item-->
+                    <!--android:id="@+id/sub_kemahasiswaan"-->
+                    <!--android:icon="@drawable/logo_mahasiswa"-->
+                    <!--android:title="Kemahasiswaan" />-->
+            </group>
+        </menu>
+    </item>
+    <item android:title="Informasi">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/sub_bantuanMasukan"
+                    android:icon="@drawable/logo_bantuan"
+                    android:title="Bantuan dan Masukan" />
+                <item
+                    android:id="@+id/sub_tentang"
+                    android:icon="@drawable/logo_tentang"
+                    android:title="Tentang">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

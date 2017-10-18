@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_d3ti" />
+
+
+            <TextView
+                android:id="@+id/multiAutoCompleteTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:enabled="false"
+                android:gravity="left"
+                android:text="Program Studi D3 Teknik Informatika"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="       Jenjang D3 Teknik informatika STMIK Bumigora Mataram adalah program yang diharapkan dapat Menghasilkan SDM yang profesional di bidang Teknik Informatika yang difokuskan pada Teknik Pemrograman, dan Networking. Program ini memiliki agihan beban studi 110 SKS.  lama studi yang ditawarkan pada jenjang ini adalah 3 tahun, dan lulusan dari jenjang ini dapat memperoleh sebutan Profesional Ahli Madya (AMd).\n"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Visi"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/multiAutoCompleteTextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:enabled="false"
+                        android:text="Program Studi D3 Teknik Informatika yang memiliki kemampuan dalam bidang jaringan komputer, tanggap terhadap perkembangan ilmu pengetahuan dan teknologi serta berwawasan global.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/extView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/multiAutoCompleteTextView2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/extView5"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Misi"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas1"
+                        android:text="\nMenyelenggarakan pendidikan dan pengajaran yang berorientasi pada kebutuhan dan perkembangan ilmu pengetahuan dan teknologi informatika untuk menghasilkan lulusan yang berkualitas."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext1"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext1"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas2"
+                        android:text="\nMengembangkan dan mengintegrasikan ilmu pengetahuan dan teknologi informasi melalui kegiatan penelitian berkelanjutan."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext2"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext2"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas3"
+                        android:text="\nMenyebarluaskan dan menerapkan hasil penelitian melalui kegiatan pengabdian kepada masyarakat.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/misitext3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView5"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Tujuan"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas21"
+                        android:text="\nMenyelenggarakan proses pembelajaran yang bermutu yang dilengkapi dengan sarana prasarana yang memadai sehingga menghasilkan lulusan yang memiliki kompetensi yang kuat dibidang jaringan komputer, berjiwa wirausaha dan berkarakter."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext1"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext1"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas22"
+                        android:text="\nTerselenggaranya kegiatan tridharma perguruan tinggi untuk mendukung pembangunan NTB."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext2"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext2"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas23"
+                        android:text="\nMembekali mahasiswa dengan keilmuan bidang Informatika yang kuat sehingga mampu mengantisipasi pesatnya perkembangan teknologi informasi."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext3"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n4.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext3"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas24"
+                        android:text="\nTerwujudnya manajemen Prodi yang transparan dan akuntabel melalui penerapan standar penjaminan mutu akademik.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/visitext4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text="Kurikulum"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Kompetensi Utama"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="       Kompetensi Utama terdiri dari perangkat kemampuan (knowledge) yang mutlak diperlukan dalam melakukan pekerjaan membangun dan mengolah administrasi jaringan komputer. Beranjak dari substansi dan tataran kompetensi tersebut, sehingga kompetensi utama lulusan D3 Teknik Informatika diharapkan:"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas31"
+                        android:text="\nMampu memahami konsep, prinsip, dan teori dalam ilmu komputer sehingga  mampu menjelaskan mekanisme kerja komputer."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext21"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext21"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas32"
+                        android:text="\nMampu membuat model solusi sistem berbasis komputer."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext22"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext22"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas33"
+                        android:text="\nMemiliki pemahaman konsep-konsep dasar jaringan komputer sehingga mampu menganalisis, merancang, membangun dan mengelola jaringan komputer berskala kecil."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext23"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n4.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext23"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas34"
+                        android:text="\nMampu berkomunikasi dengan efektif baik lisan maupun tulisan dalam kegiatan resmi maupun tidak resmi."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext24"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n5.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext24"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas35"
+                        android:text="\nMampu melakukan penelitian dan karya ilmiah.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/eTextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/visitext25"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView2"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Kompetensi Pendukung"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="       Kompetensi Pendukung merupakan perangkat kemampuan yang berfungsi untuk meningkatkan kemantapan pelaksanaan layanan ahli sesuai dengan jenis dan kewenangannya. Penguasaan kemampuan ini mengukuhkan penguasaan kemampuan utama. Dalam hal ini kompetensi pendukung yang diharapkan :"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas41"
+                        android:text="\nMemiliki pengetahuan untuk menumbuhkembangkan jiwa kewirausahaan sehingga mampu menciptakan usaha mandiri."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext31"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext31"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas42"
+                        android:text="\nMempunyai etika dan sikap profesional yang tinggi berdasarkan ketakwaan terhadap Tuhan Yang Maha Esa dan kecintaan terhadap tanah air."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext32"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext32"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas43"
+                        android:text="\nMampu mengembangkan perangkat lunak yang dapat dikombinasikan dengan perspektif/paradigma ilmu lainnya terutama dalam dunia usaha dan dunia industri baik instansi pemerintah maupun swasta.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/visitext33"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView22"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Kompetensi Lainnya"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="       Kompetensi lain merupakan kemampuan tambahan yang dapat melengkapi kompetensi pelaksanaan tugas pokok yaitu memiliki softskill seperti bekerjasama dalam tim, kemampuan berkomunikasi dalam bahasa asing (Bahasa Inggris) dan mampu mengeksploitasi kemampuan dirinya."
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas51"
+                        android:text="\nBisa bekerja bersama secara efektif dalam suatu tim."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext41"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext41"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas52"
+                        android:text="\nDapat berkomunikasi menggunakan bahasa Inggris.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/visitext42"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView32"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

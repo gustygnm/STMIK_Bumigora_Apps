@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="3dp"
+        card_view:cardElevation="3dp">
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textJudulProgramStudi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:text="Program Studi"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_thumbnailProgramStudi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textJudulProgramStudi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:background="@android:color/white"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/statusProgramStudi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_thumbnailProgramStudi"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="Nama Program Studi"
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/keteranganProgramStudi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/statusProgramStudi"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:text="Keterangan"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="13dp" />
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_lihat_detailProgramStudi"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_below="@id/keteranganProgramStudi"-->
+                <!--android:background="@color/colorPrimaryDark"-->
+                <!--android:text="Lihat Detail"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textColor="@android:color/white" />-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

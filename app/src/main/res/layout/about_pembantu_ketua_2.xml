@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_satu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab"
+    tools:context="com.stmikbumigora.apps.AboutMe">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_satu_aboutme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_satu_aboutme"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imgprofil"
+                android:layout_width="105dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/restufahdiansyah" />
+
+
+            <TextView
+                android:id="@+id/multiAutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="?attr/colorPrimary"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="Identitas"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:enabled="false"
+                    android:text="Nama                      "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/text1"
+                    android:enabled="false"
+                    android:text=": Restu Fahdiansyah, S.E., M.S.A."
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text="Jabatan            "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:layout_toStartOf="@+id/text25"
+                    android:layout_toLeftOf="@+id/text25"
+                    android:layout_below="@+id/text2"
+                    android:layout_alignLeft="@+id/text1"
+                    android:layout_alignStart="@+id/text1" />
+
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text2"
+                    android:layout_toRightOf="@id/text11"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text=": Pembantu Ketua II"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text1"
+                    android:layout_below="@+id/text21"
+                    android:layout_alignStart="@+id/text1"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text="NIDN                     "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:layout_toStartOf="@+id/text25"
+                    android:layout_toLeftOf="@+id/text25" />
+
+                <TextView
+                    android:id="@+id/text22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text21"
+                    android:layout_toRightOf="@id/text12"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text=": 0818088602"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text1"
+                    android:layout_alignStart="@+id/text1"
+                    android:layout_below="@+id/text22"
+                    android:layout_toLeftOf="@+id/text25"
+                    android:layout_toStartOf="@+id/text25"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text="NIK/NIP                          "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text22"
+                    android:layout_toRightOf="@id/text13"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text=": 16.6.237"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text1"
+                    android:layout_alignStart="@+id/text1"
+                    android:layout_below="@+id/text23"
+                    android:layout_toLeftOf="@+id/text25"
+                    android:layout_toStartOf="@+id/text25"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text="Pendidikan                "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text23"
+                    android:layout_toRightOf="@id/text14"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text=": S2 Akuntansi"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/text1"
+                    android:layout_alignStart="@+id/text1"
+                    android:layout_below="@+id/text24"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text="Perguruan Tinggi  "
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/text25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text24"
+                    android:layout_toRightOf="@id/text15"
+                    android:enabled="false"
+                    android:layout_marginTop="5dp"
+                    android:text=": Universitas Brawijaya"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/TextView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_below="@id/text25"
+                    android:layout_margin="10dp"
+                    android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                    android:textColor="@android:color/black"
+                    android:textSize="4dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

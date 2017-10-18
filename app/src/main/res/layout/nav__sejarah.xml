@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab"
+    tools:context="com.stmikbumigora.apps.menuNavigation.Nav_Sejarah">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_satu_sejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <TextView
+        android:id="@+id/txtsejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_satu_sejarah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/screen1"
+        android:gravity="center"
+        android:text="\nSejarah Berdirinya STMIK Bumigora Mataram\n"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold|normal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtsejarah"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@mipmap/stmikbg" />
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:text=""
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+
+            <WebView
+                android:id="@+id/webviewt"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/batas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n1. "
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/misitext1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/batas1"
+                    android:layout_marginRight="10dp"
+                    android:text="\nSurat Petunjuk dari Kopertis Wilayah VIII, Nomor : 117/Kop.8/N/1989 tanggal 11 Mei 1989 perihal Pendirian PTS Baru."
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/batas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/misitext1"
+                    android:text="\n2. "
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/misitext2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/misitext1"
+                    android:layout_toRightOf="@id/batas2"
+                    android:text="\nRekomendasi Gubernur Kepala daerah Tingkat I Propinsi NTB Nomor : 421.4/873/008 tanggal 15 Juni 1989."
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/batas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/misitext2"
+                    android:text="\n3. "
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/misitext2"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/batas3"
+                    android:text="\nRekomendasi Bupati Kepala Daerah Tingkat II Lombok Barat Nomor : 425.12/563 tanggal 26 Juni 1989.\n"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/webview2"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="" />
+
+            <WebView
+                android:id="@+id/webview3"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="" />
+
+            <WebView
+                android:id="@+id/webview4"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="" />
+
+            <WebView
+                android:id="@+id/webview5"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="" />
+
+            <WebView
+                android:id="@+id/webview6"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="" />
+
+            <WebView
+                android:id="@+id/webview7"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content"></WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:text="\n" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

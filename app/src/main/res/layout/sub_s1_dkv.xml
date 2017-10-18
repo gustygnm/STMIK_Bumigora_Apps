@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_s1dkv" />
+
+
+            <TextView
+                android:id="@+id/multiAutoCompleteTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:enabled="false"
+                android:gravity="left"
+                android:text="Program Studi S1 Desain Komunikasi Visual"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="       Program Studi Desain Komunikasi Visual (DKV) STMIK BUMIGORA  hadir untuk menjawab peluang dan tantangan yang tengah dihadapi oleh masyarakat dan bangsa terutama di wilayah NTB dan kawasan timur Indonesia. Sebagai program studi yang hanya satu-satunya di NTB, program ini dirancang dengan berbagai keunggulan dan penajaman sesuai dengan karakter dan kekhasan daerah yang bersinergi dengan keunggulan STMIK BUMIGORAsebagaimana yang telah diuraikan diatas dengan tetap mengedepankan kebutuhan pemangku kepentingan (stake holder) dalam bingkai penjamiman mutu yang ketat sesuai dengan amanah undang-undang Sisdiknas, PP No. 19 Tahun 2005 dan PP No 32 Tahun 2013. Dengan demikian program studi DKV akan mempercepat pencapaian visi STMIK Bumigora untuk menjadi unggul di wilayah Timur Indonesia.
+\n"
+                    android:textColor="@color/text_standar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Tujuan Penyelenggraan Program Studi"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas1"
+                        android:text="\nMenghasilkan sarjana yang kreatif, inovatif, produktif dan berkapasitas handal di bidang desain komunikasi visual yang mampu bersaing di tingkat global."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext1"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext1"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas2"
+                        android:text="\nMenghasilkan lulusan sarjana S-1 yang mampu mengembangkan keahliannya selaras dengan kemajuan ilmu pengetahuan dan teknologi di bidang desain komunikasi visual yang sejalan dengan kebutuhan masyarakat."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext2"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext2"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas3"
+                        android:text="\nMenghasilkan lulusan yang mampu melaksanakan tugas dan tanggung jawab profesinya secara mandiri maupun berkolaborasi dengan disiplin ilmu lain."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext3"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n4.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext3"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas3"
+                        android:text="\nMenghasilkan lulusan yang mampu menemukan gagasan baru dan berpikir paradigmatis dan sistematis dalam proses perancangan karya desain komunikasi visual serta mampu merencanakan program dan strategi komunikasi visual melalui berbagai media komunikasi visual secara kreatif dan profesional."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext4"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n5.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/misitext5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/misitext4"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas4"
+                        android:text="\nMenghasilkan lulusan yang berjiwa dan berkapasitas entrepreneur yang mampu menciptakan peluang kerja di bidang industry kreatif, khususnya di lingkup bidang desain komunikasi visual.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/misitext5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView5"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Keunggulan Program Studi S1 Desain Komunikasi Visual"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas21"
+                        android:text="\nBerada pada kampus yang telah memiliki Program Studi yang cukup relevan untuk mendukung keilmuan DKV seperti Prodi S1 Teknik Informatika telah terakreditasi B dengan No. 211/SK/BAN-PT/Ak-XV Prodi D3 Manajemen Informatika dan Prodi D3 Teknik Informatika dan telah terakreditasi C dengan no SK 024/BAN-PT/Ak-VIII/Dpl-III/I/2009."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext1"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext1"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas22"
+                        android:text="\nAkan menjadi satu-satunya Prodi DKV di Nusa Tenggara."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext2"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext2"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas23"
+                        android:text="\nMemiliki dosen tetap yang memadai baik dari segi kualitas maupun kuantitas dan berlatar pendidikan yang sesuai Program Studi."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext3"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n4.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext3"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas24"
+                        android:text="\nSudah memiliki fasilitas pembelajaran yang memadai."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext4"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n5.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext4"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas25"
+                        android:text="\nMemiliki gedung sendiri yang cukup representative."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext5"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n6.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext5"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas25"
+                        android:text="\nMemiliki berbagai laboratorium yang sangat dibutuhkan termasuk Lab. Bahasa yang cukup memadai."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext6"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n7.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext6"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas26"
+                        android:text="\nMemiliki program yang bersinergi dengan pemangku kepentingan."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext7"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n8.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext7"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas27"
+                        android:text="\nMemiliki kerjasama dengan berbagai instansi Pemerintah maupun Swasta, serta perguruan tinggi.\n"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/eTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:layout_below="@id/visitext8"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                        android:textColor="@color/text_standar"
+                        android:textSize="4dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/eTextView"
+                        android:text=""
+                        android:textSize="8dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/multiAutoCompleteTextView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="?attr/colorPrimary"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:text=" Karakteristik Program Studi S1 Desain Komunikasi Visual"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/batas31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n1.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas31"
+                        android:text="\nBerada di bawah Sekolah Tinggi Manajemen Informatika dan Komputer"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext21"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n2.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext21"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas32"
+                        android:text="\nKurikulum mengintegrasikan ilmu seni dan desain, komunikasi, multimedia dan teknologi informasi."
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/batas33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext22"
+                        android:layout_marginLeft="10dp"
+                        android:text="\n3.  "
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/visitext23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext22"
+                        android:layout_marginRight="10dp"
+                        android:layout_toRightOf="@id/batas33"
+                        android:text="\nMenyelenggarakann proses belajar mengajar yang dirancang sedemikian rupa sehinga lulusan S1 DKV akan memiliki kemampuan sebagai berikut:"
+                        android:textColor="@color/text_standar"
+                        android:textSize="14dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visitext23"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/white">
+
+                        <TextView
+                            android:id="@+id/batas211"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas211"
+                            android:text="\nMelakukan olah visual secara manual maupun digital"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas221"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext11"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext211"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext11"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas221"
+                            android:text="\nMenerapkan sensibilitas estetika tinggi dalam mengolah unsur-unsur disain"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas231"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext211"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext211"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas231"
+                            android:text="\nMenerapkan sikap manajerial dan kepemimpinan, serta mampu bekerja sama antar disiplin"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas241"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext31"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext31"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas241"
+                            android:text="\nMengkomunikasikan ide dan memiliki  jiwa kewirausahaan"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas251"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext41"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext41"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas251"
+                            android:text="\nMenyususn strategi komunikasi visual melalui pendekatan berbagai media."
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas261"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext51"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext51"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas251"
+                            android:text="\nMemiliki ketajaman dalam menganalisa fenomena-fenomena dan permasalahan desain yang terjadi"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas271"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext61"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext61"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas261"
+                            android:text="\nMengembangkan ilmu pengetahuan dan teknologi, penguasaan terhadap metodologi desain"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas281"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext71"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext71"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas271"
+                            android:text="\nMampu mengintegrasikan teori dan metode, konteks budaya serta lingkungan dan dan factor manusia untuk pengembangan bidang desain"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+
+                        <TextView
+                            android:id="@+id/batas2111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/visitext81"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/visitext81"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2111"
+                            android:text="\nMemiliki kreatifitas dan komunikasi terhadap target audience dan media, dalam merumuskan strategi komunikasi yang efektif dan efisient."
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2211"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext111"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext2111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext111"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2211"
+                            android:text="\nMemiliki keahlian dalam merancang komunikasi visual yang efektif dan efisien sesuai dengan permasalahan yang ada khususnya di NTB"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2311"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext2111"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext311"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext2111"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2311"
+                            android:text="\nMemiliki keahlian teknologi informasi di bidang DKV sesuai dengan institusi induk"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2411"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext311"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext411"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext311"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2411"
+                            android:text="\nPeduli dan bertanggung jawab terhadap perubahan dan perkembangan budaya dan lingkungan"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext411"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext411"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2511"
+                            android:text="\nMemiliki keahlian merancang game berbasis teknologi sebagai media penyampaian informasi."
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2611"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext511"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext611"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext511"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2511"
+                            android:text="\nMampu mengidentifikasi dan menganalisis karakteristik khalayak dan persoalan bisnis ke dalam desain komunikasi visual. (Desain Grafis)."
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2711"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext611"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext711"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext611"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2611"
+                            android:text="\nMampu menyajikan bentuk komunikasi interaktif yang bersifat kreatif dibidang desain multimedia secara profesional. (Desain Multimedia)."
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/batas2811"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext711"
+                            android:layout_marginLeft="10dp"
+                            android:text="\n-  "
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/visitext811"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/visitext711"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@id/batas2711"
+                            android:text="\nMampu membuat konsep dan berimajinasi tinggi dan mengemplementasikan sebuah rancangan kreatif melalui program Animasi (Digital Animasi)\n"
+                            android:textColor="@color/text_standar"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/eTextView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="6dp"
+                            android:layout_below="@id/visitext811"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                            android:textColor="@color/text_standar"
+                            android:textSize="4dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/eTextView1"
+                            android:text=""
+                            android:textSize="8dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

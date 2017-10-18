@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <item
+            android:id="@+id/action_aboutme"
+            android:icon="@drawable/profil"
+            android:orderInCategory="200"
+            android:title="About Me"
+            style="@style/OverflowMenu"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_restartapps"
+            android:icon="@drawable/restart_apps"
+            android:orderInCategory="100"
+            android:title="Restart Apps"
+            style="@style/OverflowMenu"
+            app:showAsAction="always" />
+
+</menu>

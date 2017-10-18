@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">STMIK Bumigora Apps</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="abaoutmestr">About Me</string>
+
+    <string name="sejarah">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+Komputer adalah produk teknologi untuk membantu  menyelesaikan proses dengan tingkat kecepatan, keakuratan, dan kecermatan tinggi. Teknologi informasi sebagai teknologi yang memanfaatkan komputer dalam segala bentuk sehingga meningkatkan kegiatan (aktifitas) dari suatu kegiatan disegala bidang. Ilmu komputer merupakan kebutuhan yang mendesak untuk segera dipelajari dan dikembangkan.Salah satu wujud   realisasinya adalah melalui pendidikan formal.
+Tantangan tersebut segera dijawab dengan didirikanya “ Yayasan  Pendidikan Eksekutip Komputer”  Akte Notaris Nomor : 39 tanggal 26 September   1987 dihadapan Notaris Abdullah, SH. di Mataram, diikuti dengan berdirinya Perguruan Tinggi Komputer dengan nama Sekolah Tinggi Teknologi Komputer Bumigora (STTK Bumigora).
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejaraht">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+Gagasan untuk mendirikan Perguruan Tinggi tersebut sesungguhnya telah dirintis sejak tahun 1987, namun karena ada kebijaksanaan baru  mengenai Pendidikan Perguruan Tinggi Swasta (PTS) oleh Dirjen Dikti No. 2834/D/T/1987, tanggal 26 September 1987 dan Nomor : 086a/D/T 88, tanggal 16 Januari 1988, rencana tersebut tertunda dan baru dapat diwujudkan dalam tahun akademik 1989/1990 atas  dasar :
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah2">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+  Keberadaan lembaga pendidikan STMIK Bumigora tersebut kemudian semakin dimantapkan lagi dengan dikeluarkannya surat keputusan menteri pendidikan dan kebudayaan melalui Koordinatir Perguruan tinggi swasta (KOPERTIS) Wilayah VIII yang memberi status terdaftar untuk jenjang studi Strata 0 (S0) program studi Diploma tiga (D3) Manajemen Informatika, berdasar surat keputusan nomor 0390/O/1991 tertanggal 22 Juni 1991 sekaligus merubah nama Sekolah Tinggi Teknologi Komputer (STTK) menjadi Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK) Bumigora Mataram. Beberapa waktu kemudian, yaitu tanggal 8 Januari 1992 dengan surat keputusan nomor 026/O/1992, program diploma tiga (D3) Teknik Informatika mendapat status Terdaftar.
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah3">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+    Memperhatikan sistem pengelolaan kedua program studi tersebut dinilai cukup baik, STMIK Bumigora diperkenankan pula untuk menyelenggarakan jenjang studi Strata Satu (S1) program studi Teknik Informatika dengan status Terdaftar berdasarkan surat keputusan nomor 608/DIKTI/EP/1993 tertanggal 23 Nopember 1993. Serta menunjuk surat dari Departemen Pendidikan dan Kebudayaan Direktorat Jendral Pendidikan Tinggi nomor 699/D4.II/1998 perihal penyelenggaraan Program D2 dan D1, sejak tahun Akademik 1998/1999 STMIK Bumigora Mataram membuka jenjang pendidikan D1 dan D2 Manajemen Informatika Komputer dengan status Terdaftar.
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah4">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+    Sebagai perguruan tinggi yang taat pada peraturan pemerintah dan undang-undang tentang pendidikan tinggi, STMIK Bumigora secara tertib melaporkan laporan EPSBED (Evaluasi Program Studi Berbasis Evaluasi Diri) ke Direktorat Pendidikan Tinggi, serta melakukan perpanjangan program studi sesuai dengan waktu yang telah ditentukan. STMIK Bumigora juga sangat memperhatikan standar kualitas perguruan tinggi yang telah ditetapkan DIKTI dengan mengajukan akreditasi bagi program studi S1 Teknik Informatika, D3 Teknik Informatika, dan D3 Manajemen Informatika.  Program Studi S1 Teknik Informatika telah terakreditasi dengan nilai C dengan nomor SK  015/BAN-PT/Ak-X/S1/VII/2007 tertanggal 10 Juli 2007. Program Studi D3 Teknik Informatika dan D3 Manajemen Informatika telah terakreditasi dengan nilai C dengan nomor SK 024/BAN-PT/Ak-VIII/Dpl-III/I/2009 tertanggal 10 Januari 2009.
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah5">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+    Pada bulan November 2009, STMIK Bumigora memperoleh sertifikat internasional ISO 9001:2008 untuk Pengelolaan Akademik dari Badan Sertifikasi Internasional UKAS-URS yang berpusat di London Inggris. Ke depan STMIK Bumigora bertekad untuk meningkatkan Akreditasi agar mutu penyelenggaraan pendididkan dan mutu lulusan dapat lebih diakui oleh masyarakat.
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah6">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+      Sebagai perguruan tinggi yang ternama di Kopertis Wilayah VIII (Bali, NTB, dan NTT), STMIK Bumigora telah dipercaya untuk menerima hibah dari berbagai sumber yaitu : Hibah TPSDP ADB Loan pada tahun 2001 dari Asian Development Bank , Hibah Kompetisi Peningkatan Mutu Pendidikan (PHK-PMP) dari DIKTI pada tahun 2006 untuk penguatan Laboratorium Multimedia dan Laboratorium Jairngan Komputer,Hibah Kompetisi PHK TIK K3dari DIKTI pada tahun 2007 untuk membangun jaringan STMIK Bumigora dan INHERENT (Indonesian Higher Education Network), serta pada tahun 2010 memperoleh Hibah MS-IPTEKS untuk penguatan pengelolaan sumber daya IPTEKS perguruan tinggi dan Hibah PHP-PTS untuk pembinaan perguruan tinggi swasta.
+ </body>
+</html>
+]]>
+</string>
+    <string name="sejarah7">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;font-size:15;background-color:white;">
+    STMIK Bumigora terlibat aktif di dalam berbagai program pemerintah seperti sebagai provider (pelaksanan) Program Diploma III Teknik Komputer dan Jaringan (PJJ D3TKJ) yang berada dibawah SEAMOLEC serta telah memperoleh status sebagai Local Academy untuk Java Education Network Indonesia (JENI) dan Cisco Computer Network Administrator (CCNA).Disamping itu STMIK Bumigora berperan aktif dalam merancang e-Government NTB, melalui Asosiasi Masyarakat Telematika NTB yang bekerja sama dengan Pemerintah Daerah NTB.
+ </body>
+</html>
+]]>
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_bottom_bar">MainActivityBottomBar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

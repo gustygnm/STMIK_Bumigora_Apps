@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stmikbumigora.apps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AboutMe"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutKetua"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutPembantuKetua1"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutPembantuKetua2"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutPembantuKetua3"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutKaProdiS1TI"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutKaProdiD3TI"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutKaProdiD3MI"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterDataDosenStaff.AboutKaProdiS1DKV"
+            android:label="@string/abaoutmestr"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.Nav_Sejarah"
+            android:label="Sejarah"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".subMenu.subDataDosendanStaff"
+            android:label="Data Dosen dan Staff"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".subMenu.subProgramStudi"
+            android:label="Program Studi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menuNavigation.Sejarah"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.BantuanMasukan"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.DataDosenStaff"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.FasilitasKampus"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.KalenderAkademik"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.ProgramStudi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.StrukturOrganisasi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.Tentang"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".menuNavigation.VisiMisi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterProgramStudi.S1TI"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterProgramStudi.D3TI"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterProgramStudi.D3MI"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".adapterProgramStudi.S1DKV"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.stmikbumigora.apps.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
