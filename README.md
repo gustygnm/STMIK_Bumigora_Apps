@@ -1,7 +1,5 @@
-# Android-Navigation-Drawer
+# Aplikasi STMIK Bumigora Apps
 
-Tutorial
-https://dedykuncoro.com/2016/03/membuat-navigation-drawer-menu-android.html
+aplikasi ini masih dalam proses pengembangan. jika anda ingin menggunakan beberapa fitur dalam aplikasi ini. monggo :)
 
-Demo app
-https://www.youtube.com/watch?v=zSFNrKyjSkk
+![splashlogo-hdpi](https://user-images.githubusercontent.com/23120897/38767348-03d5b1a2-4012-11e8-935c-79845516675e.png)
